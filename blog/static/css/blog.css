@@ -1,6 +1,5 @@
-body {
-    padding-left: 15px;
-    text-decoration: none;
+* {
+    text-decoration: none !important;
 }
 
 h1 a {
@@ -8,6 +7,49 @@ h1 a {
 }
 
 h2 a {
-    /* color: rgb(250, 50, 200); */
-    color: blueviolet;
+    color: rgb(250, 50, 200);
+}
+
+.page-header {
+    background-color: yellow;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.top-menu {
+    color: rgb(173, 18, 134);
+    float: right;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.top-menu:hover {
+    color: rgb(250, 50, 200);
+}
+
+article {
+    padding-top: 20px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+time {
+    float: right;
+    margin-right: 20px;
+}
+
+.actions {
+    float: right;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+form input, textarea {
+    width: 90%;
 }
